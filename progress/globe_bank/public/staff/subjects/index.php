@@ -25,7 +25,8 @@
         <th>ID</th>
         <th>Position</th>
         <th>Visible</th>
-  	    <th>Name</th>
+        <th>Name</th>
+        <!-- blank headers-->
   	    <th>&nbsp;</th>
   	    <th>&nbsp;</th>
         <th>&nbsp;</th>

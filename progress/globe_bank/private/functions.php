@@ -9,6 +9,7 @@ function url_for($script_path) {
 }
 
 function u($string="") {
+  // encode to make secure for that you protect URL script entries
   return urlencode($string);
 }
 
@@ -17,6 +18,7 @@ function raw_u($string="") {
 }
 
 function h($string="") {
+  //html encode
   return htmlspecialchars($string);
 }
 
